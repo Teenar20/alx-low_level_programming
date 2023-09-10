@@ -2,10 +2,9 @@
 #include <time.h>
 #include<stdio.h>
 /**
-* main -This program will assign a random number to the variable n each time it is executed.
+* main - Program that prints if a store number is positive or negative
 * Return: 0 (Success)
 */
-
 int main(void)
 {
 	int n;
