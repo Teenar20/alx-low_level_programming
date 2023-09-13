@@ -1,7 +1,6 @@
 #include <stdio.h>
 /**
  * main - Prints the sum of Even Fibonacci numbers
- * less than 4000000.
  * Return: 0
  */
 int main(void)
@@ -20,6 +19,6 @@ int main(void)
 		term1 = term2;
 		term2 = next;
 	}
-	pintf("%d\n", sum);
+	printf("%d\n", sum);
 	return (0);
 }
